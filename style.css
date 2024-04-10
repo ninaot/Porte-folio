@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.prof img {
+    width: 60px;
+    border-radius: 60px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: antiquewhite;
+    position: sticky;
+top: 0px;
+   
+}
+
+.accueil {
+    list-style-type: none;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.ligne{
+    text-decoration: none;
+    color: black;
+}
+
+.fond{
+    background-image: url(./assets/fondecranc.jpeg);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    
+    font-size:50px;
+    color: hsl(263, 67%, 16%);
+}
+.text{
+    margin-bottom: 200px;
+text-align:center;
+
+}
+.btn{
+    text-decoration: none;
+    border-radius: 25px;
+    background-color: blueviolet;
+    padding:12px 20px;
+    font-size:large;
+    color: antiquewhite;
+    
+}
+.btn:hover{background-color: darksalmon;}
+
+.lin{ font-size:30px;}
+
+    
+/*Mes cartes*/
+.carte{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.carte h3{
+    font-size: 22px;
+    margin-bottom: 16px;
+    color: #21063a;
+   
+}
+h2{font-size: 40px;
+    margin-bottom: 50px ;
+text-align: center;
+color: #21063a;
+font-family: Arial, Helvetica, sans-serif;}
+
+.width40{
+    width: 40%;
+}
+   
+ .card{width: 200px;
+    margin-top: 20px;
+    padding: 8px;
+      border-radius: 50px;
+      box-shadow: 4px 5px 12px #5f30ed;}
+    .card img{ border-radius: 40px;
+        width: 100%;}
+.card h3{ text-align: center;
+color: hsl(282, 88%, 19%);}
+.flexcard{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 70%;
+        margin: auto;
+}
+
+
+
+footer{background-color: bisque;
+text-align: center; width: 200px;}
