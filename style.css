@@ -103,7 +103,7 @@ font-style: normal; text-transform: uppercase;
 .carte h3{
     font-size: 20px;
     margin-bottom: 30px;
-    color: #693c66; text-align: center;
+    color: hsl(304, 32%, 25%); text-align: center;
     
    
 }
